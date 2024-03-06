@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário LTV 2022</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="form">
+        <fieldset>
+        <legend>Cadastro do Aluno</legend>
+        <form action="dados.html">
+            <div class="nome">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" 
+        placeholder="Digite o nome do aluno">
+            </div>
+            <div class="email">
+            <label for="nome">Email do Aluno:</label>
+            <input type="email" 
+            placeholder="Digite o email do aluno">
+            </div>
+            <div class="fone">
+                <label for="fone">Telefone do Aluno:</label>
+                <input type="phone" 
+                placeholder="Digite o Telefone do aluno">
+            </div><br>
+
+            <div class="escolha">
+                Escolha a cidade:
+                <select name="cidade" id="">
+                    <option value="cau" class="cidade">Caucaia</option>
+                    <option value="paca" class="cidade">Pacatuba</option>
+                    <option value="para" class="cidade">Paramoti</option>
+                    <option value="for" class="cidade">Fortaleza</option>
+                    <option value="mes" class="cidade" selected>Messejana</option>
+                    <option value="mun" class="cidade">Munguba</option>
+                </select>
+            </div><br>
+
+            <div class="check">
+                <input type="checkbox" id="check">
+                Aceita receber notificações?
+            </div><br>
+            
+            <div class="btn">
+                <input type="submit" value="Enviar">
+            </div>
+           
+     </div>
+        </form>
+        </fieldset>
+    </div> 
+</body>
+</html>
